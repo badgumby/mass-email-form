@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+body.mass-notify {
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0.7+68,0+100 */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(95,154,207,0.7) 68%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */}
+.mainDiv {
+  /*margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+  margin: 20px auto;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  background: #ffffff;
+  border: solid 3px #000000;
+  border-radius: 8px;
+  max-width: 660px;
+  overflow: hidden;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+.viewDiv {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+.fileDiv {
+  margin: 20px auto;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  background: #ffffff;
+  border: solid 3px #000000;
+  border-radius: 8px;
+  max-width: 660px;
+  min-width: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+h3 {
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 400px;
+}
+
+textarea {
+  width: 400px;
+  border: 1px solid #006EB6;
+  border-radius: 2px;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+.otherBox input[type="text"] {
+  max-width:60%;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1px solid #006EB6;
+  border-radius: 2px;
+}
+
+input[type="datetime-local"] {
+  border: 1px solid #006EB6;
+  border-radius: 2px;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+select {
+  border: 1px solid #006EB6;
+  border-radius: 2px;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+
+input[type="submit" i] {
+  background: #005EB8;
+  border: none;
+  height: 25px;
+  padding: 10px 15px 25px 15px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+input[type="submit" i]:hover {
+  background: #007EF5;
+}
+input[type="button" i] {
+  background: #005EB8;
+  border: none;
+  height: 25px;
+  padding: 10px 15px 25px 15px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+}
+input[type="button" i]:hover {
+  background: #007EF5;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: #6f9dca;
+  color: #000000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  border: solid 3px #000000;
+  top: 100%;
+  left: 50%;
+  margin-left: -150px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext2 {
+  visibility: hidden;
+  width: 220px;
+  background-color: #6f9dca;
+  color: #000000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  border: solid 3px #000000;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip:hover .tooltiptext2 {
+  visibility: visible;
+}
+
+iframe {
+  height: 650px;
+  width: 800px;
+  resize: both;
+  overflow: auto;
+}
+
+#box {
+  display: flex;
+
+}
+.item {
+  margin-right: 5px;
+}
+
+.attachments {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  background: #ffffff;
+  border: solid 3px #000000;
+  border-radius: 8px;
+  max-width: 600px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

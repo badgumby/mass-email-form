@@ -1,0 +1,30 @@
+{
+  "systems": [
+    "Email System",
+    "Network",
+    "Phone System",
+    "SAP System",
+    "Other"
+  ],
+  "teams": [
+    {
+      "name": "IT Enterprise Applications Team",
+      "value":"IT-Apps",
+      "signature": "Regards,<br>IT Enterprise Applications Team<br>IT_Apps@example.com<br>https://helpdesk.com"
+    },
+    {
+      "name": "IT Infrastructure Team",
+      "value":"IT-Inf",
+      "signature": "Regards,<br>IT Infrastructure Team<br>IT_Inf@example.com<br>https://helpdesk.com"
+    },
+    {
+      "name": "IT Security Team",
+      "value":"IT-Sec",
+      "signature": "Regards,<br>IT Security Team<br>IT_Sec@example.com<br>https://helpdesk.com"
+    }
+  ],
+  "summaryOfChange": "The {$team} will be adding/removing/modifying the {$type}. Starting on {$datetime}, we will begin working on the {$type} system.  Below is a screenshot that details what you should expect to see on *MORE DETAILS*.",
+  "details": "The planned {$type} system change will *DO WHAT*.  This allows *SOMETHING*.",
+  "whatToExpect": "There is no action needed for this system change."
+
+}
